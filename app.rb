@@ -5,7 +5,7 @@ require 'sinatra/base'
 require 'sinatra/content_for'
 require 'sinatra/reloader'
 require 'micro-optparse'
-require 'rmagick'
+require 'RMagick'
 require 'colormath'
 
 require './helpers/boxhelper'
@@ -76,7 +76,6 @@ module Box
 
 			pixel_spacing   = (@pixel_spacing < 0 or @pixel_size > pixel_size) ? pixel_size : @pixel_spacing
 		
-			puts shadows
 			session[:shadow] = shadows
 			session[:width] = width 
 			session[:height] = height
