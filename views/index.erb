@@ -1,0 +1,41 @@
+<div class="container">
+	<h1>BoxDraw</h1>
+	
+	<% if session[:shadow] %>
+		<div id="art">
+			<div></div>
+		</div>
+		<style>
+			#art {
+				background:#000;
+				width: <%= session[:width]+1 %>px;
+				height: <%= session[:height]+1 %>px;
+				margin:10px auto;
+			}
+			
+			#art div {
+				width: <%= session[:pixel_spacing] %>px;
+				height: <%= session[:pixel_spacing] %>px;
+				background: transparent;
+				box-shadow: <%= session[:shadow].map { |s| s }.join(",\n\t") %>;
+			}
+		</style>
+	<% end %>
+	
+	<form action="/" method="post" enctype='multipart/form-data'>
+		<div class="izq">
+			
+			<input type="text" name="pixel_size" placeholder="pixel_size">
+			<input type="text" name="blur" placeholder="blur">
+			<input type="text" name="pixel_spacing" placeholder="pixel_spacing">
+			<input type="file" name="photo">
+			<input type="submit">
+		</div>
+		
+		
+		<div class="der">
+		</div>
+		
+		
+	</form>
+</div>
