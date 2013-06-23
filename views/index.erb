@@ -7,7 +7,7 @@
 		</div>
 		<style>
 			#art {
-				background:#000;
+				background:#fff;
 				width: <%= session[:width]+1 %>px;
 				height: <%= session[:height]+1 %>px;
 				margin:10px auto;
@@ -25,15 +25,21 @@
 	<form action="/" method="post" enctype='multipart/form-data'>
 		<div class="izq">
 			
-			<input type="text" name="pixel_size" placeholder="pixel_size">
-			<input type="text" name="blur" placeholder="blur">
-			<input type="text" name="pixel_spacing" placeholder="pixel_spacing">
+			<input type="number" name="pixel_size" placeholder="Tamaño del pixel" min=0 max=10 required>
+			<input type="number" name="blur" placeholder="blur" min=0 max=10 required>
+			<input type="number" name="pixel_spacing" placeholder="Espacio entre pixeles" min=0 max=10 required>
 			<input type="file" name="photo">
 			<input type="submit">
 		</div>
 		
 		
 		<div class="der">
+			<p>BoxDraw</p>
+			
+			<p>Hola, boxdraw es un algoritmo que convierte imagenes a css, esta todavia muy beta, tengo problemas con la memoria puesto crea mcuhaaas lineas de css y vuelve leeeeento el pc si la imagen es muy grande y pones a detallar pixel por pixel, prueba esto 5,0,5 y una imagen diseñada de 300x300</p>
+			
+			<p>Si tienen ideas, ayuden :D</p>
+			<p><a href="http://twitter.com/bottico">@bottico</a> sigueme :) </p>
 		</div>
 		
 		

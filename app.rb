@@ -40,7 +40,8 @@ module Box
 			image = Magick::ImageList.new
 			bin = File.open(tmpfile, 'r'){ |file| file.read }
 			img = image.from_blob(bin)
-			
+
+
 			width     = img.columns
 			height    = img.rows
 
