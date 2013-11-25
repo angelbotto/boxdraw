@@ -20,3 +20,6 @@ Se autoriza por la presente, de forma gratuita, a cualquier persona que haya obt
 El aviso de copyright anterior y este aviso de permiso tendrá que ser incluido en todas las copias o partes sustanciales de este Software.
 
 EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO SIN LIMITARSE A GARANTÍAS DE MERCANTIBILIDAD, CAPACIDAD DE HACER Y DE NO INFRACCIÓN DE COPYRIGHT. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UN LITIGIO, AGRAVIO O DE OTRO MODO, DERIVADAS DE, OCASIONADAS POR CULPA DE O EN CONEXION CON EL SOFTWARE O SU USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/angelbotto/boxdraw/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
